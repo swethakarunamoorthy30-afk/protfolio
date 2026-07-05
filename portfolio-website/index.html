@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swetha K — Full Stack Web Developer</title>
+<meta name="description" content="Portfolio of Swetha K, a full stack web developer fresher specializing in HTML5, CSS3, JavaScript, Core Java and MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== EDITOR CHROME / NAV ===== -->
+  <header class="editor" id="top">
+    <div class="editor__titlebar">
+      <div class="editor__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+      <span class="editor__path">swetha-k — portfolio — ~/dev</span>
+      <button class="editor__menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="editor__tabs" id="tabNav">
+      <a href="#about" class="tab" data-tab="about.js">about<span class="tab__ext">.js</span></a>
+      <a href="#skills" class="tab" data-tab="skills.json">skills<span class="tab__ext">.json</span></a>
+      <a href="#projects" class="tab" data-tab="projects.js">projects<span class="tab__ext">.js</span></a>
+      <a href="#contact" class="tab" data-tab="contact.sh">contact<span class="tab__ext">.sh</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__gutter" aria-hidden="true">
+        <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+      </div>
+      <div class="hero__code">
+        <p><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {</p>
+        <p class="indent"><span class="tok-key">name:</span> <span class="tok-str">"Swetha K"</span>,</p>
+        <p class="indent"><span class="tok-key">role:</span> <span class="tok-str">"Full Stack Web Developer"</span>,</p>
+        <p class="indent"><span class="tok-key">status:</span> <span class="tok-str">"Fresher, open to work"</span>,</p>
+        <p class="indent"><span class="tok-key">stack:</span> [<span class="tok-str">"HTML5"</span>, <span class="tok-str">"CSS3"</span>, <span class="tok-str">"JavaScript"</span>, <span class="tok-str">"Java"</span>, <span class="tok-str">"MySQL"</span>],</p>
+        <p class="indent"><span class="tok-key">basedIn:</span> <span class="tok-str">"Tamil Nadu, India"</span>,</p>
+        <p><span id="typedLine">};</span><span class="cursor" aria-hidden="true">&nbsp;</span></p>
+      </div>
+      <h1 class="hero__visually-hidden">Swetha K — Full Stack Web Developer, Fresher</h1>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">Run projects()</a>
+        <a class="btn btn--ghost" href="#contact">Open contact.sh</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <p class="section__eyebrow">// about.js</p>
+      <h2 class="section__title">01. About</h2>
+      <div class="about__grid">
+        <p class="about__text">
+          I'm a BCA graduate from Tamil Nadu with hands-on training in full stack web development.
+          I like turning a blank file into something that works end to end &mdash; a page that responds
+          the way it should on any screen, and a database underneath that holds up. My training has
+          covered the front end (HTML5, CSS3, JavaScript) and the back end (Core Java, MySQL), and
+          I'm currently extending that into modern JavaScript-based stacks like React and Node.js.
+        </p>
+        <dl class="about__facts">
+          <div><dt>Education</dt><dd>BCA, SSS College for Women (2022–2025)</dd></div>
+          <div><dt>Training</dt><dd>Full Stack Web Dev, QSpiders Institute</dd></div>
+          <div><dt>Location</dt><dd>Thiruvannamalai, Tamil Nadu</dd></div>
+          <div><dt>Availability</dt><dd>Immediate — open to relocation</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section section--alt">
+      <p class="section__eyebrow">// skills.json</p>
+      <h2 class="section__title">02. Skills</h2>
+      <div class="skills__grid">
+        <article class="skill-card">
+          <h3>"frontend"</h3>
+          <ul>
+            <li>HTML5 <span>semantic markup</span></li>
+            <li>CSS3 <span>Flexbox, Grid, responsive</span></li>
+            <li>JavaScript <span>ES6+, DOM, validation</span></li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>"backend"</h3>
+          <ul>
+            <li>Core Java <span>OOP, exceptions</span></li>
+            <li>MySQL <span>schema design, CRUD</span></li>
+            <li>REST APIs <span>concepts, Postman</span></li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>"learning"</h3>
+          <ul>
+            <li>React.js <span>components, hooks</span></li>
+            <li>Node.js <span>Express basics</span></li>
+            <li>MongoDB <span>document modeling</span></li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>"tools"</h3>
+          <ul>
+            <li>Git &amp; GitHub <span>branches, PRs</span></li>
+            <li>VS Code, Eclipse <span>daily drivers</span></li>
+            <li>Postman <span>API testing</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+      <p class="section__eyebrow">// projects.js</p>
+      <h2 class="section__title">03. Projects</h2>
+      <div class="projects__grid">
+        <article class="project-card">
+          <div class="project-card__head">
+            <span class="project-card__index">01</span>
+            <h3>Responsive Portfolio Website</h3>
+          </div>
+          <p>This site. A fully responsive, mobile-first personal portfolio built with semantic HTML,
+             CSS Grid/Flexbox, and vanilla JavaScript — including scroll-aware navigation, a typing
+             hero animation, and validated contact form.</p>
+          <ul class="project-card__tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="#" class="link">View code →</a>
+            <a href="#" class="link">Live demo →</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-card__head">
+            <span class="project-card__index">02</span>
+            <h3>Student Database Management System</h3>
+          </div>
+          <p>A desktop CRUD application built with Core Java and MySQL, backed by a normalized
+             relational schema. Includes a Java Swing GUI for adding, searching, updating, and
+             deleting student records.</p>
+          <ul class="project-card__tags">
+            <li>Java</li><li>Swing</li><li>MySQL</li><li>JDBC</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="#" class="link">View code →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section section--alt">
+      <p class="section__eyebrow">// contact.sh</p>
+      <h2 class="section__title">04. Contact</h2>
+      <div class="terminal">
+        <div class="terminal__bar">
+          <div class="editor__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+          <span>bash — contact.sh</span>
+        </div>
+        <div class="terminal__body">
+          <p class="terminal__line"><span class="prompt">swetha@portfolio</span>:<span class="path">~</span>$ ./contact.sh</p>
+          <form id="contactForm" class="terminal-form" novalidate>
+            <div class="field">
+              <label for="name">--name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+              <span class="field__error" id="nameError"></span>
+            </div>
+            <div class="field">
+              <label for="email">--email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              <span class="field__error" id="emailError"></span>
+            </div>
+            <div class="field">
+              <label for="message">--message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Say hello..." required></textarea>
+              <span class="field__error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary">Send message</button>
+            <p class="terminal__output" id="formOutput" role="status" aria-live="polite"></p>
+          </form>
+          <p class="terminal__meta">
+            Or reach directly: <a href="mailto:swethakarunamoorthy30@gmail.com">swethakarunamoorthy30@gmail.com</a>
+            &nbsp;|&nbsp; +91 93619 18939
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Swetha K. Built with HTML5, CSS3 &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
